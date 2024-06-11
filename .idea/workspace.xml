@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec5fc947-984c-4025-b0de-283688762caf" name="Changes" comment="punto1 hecho">
-      <change afterPath="$PROJECT_DIR$/src/main/java/punto2/FechaDeCumpleaños.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/punto2/FechaDeCumpleañosCorta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/punto2/FechaDeCumpleañosLarga.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/punto2/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Punto2.java" afterDir="false" />
+    <list default="true" id="ec5fc947-984c-4025-b0de-283688762caf" name="Changes" comment="punto2 hecho">
+      <change afterPath="$PROJECT_DIR$/src/main/java/punto1/EmpresaEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punto2/Cumpleaños.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punto3/CalculadorDePrecioAlimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punto3/CalculadorDePrecioLibro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punto3/CalculadorDePrecioMedicina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punto3/CalculadorDePrecioOtro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punto3/CalculadorDePrecios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punto3/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/punto3/TipoProducto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Punto3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/punto1/Envio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/punto1/Envio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/punto2/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/punto2/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Punto1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Punto1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Punto2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Punto2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -37,42 +47,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.Punto1.envioPorColectivoSur.executor": "Run",
-    "JUnit.Punto1.envioPorCorreo.executor": "Run",
-    "JUnit.Punto2.fechaDeCumpleañosCorta.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Punto3.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Punto1.envioPorColectivoSur.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Punto1.envioPorCorreo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Punto1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Punto2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Punto2.fechaDeCumpleañosCorta.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Punto2.fechaDeCumpleañosLarga.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="punto1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Punto2.fechaDeCumpleañosLarga">
-    <configuration name="Punto1.envioPorColectivoSur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Punto3">
+    <configuration name="Punto3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Punto3" />
       <module name="PD-TP-Strategy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Punto1" />
-      <option name="METHOD_NAME" value="envioPorColectivoSur" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Punto1.envioPorCorreo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Punto1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PD-TP-Strategy" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Punto1" />
-      <option name="METHOD_NAME" value="envioPorCorreo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Punto2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PD-TP-Strategy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Punto2" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,10 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Punto3" />
+        <item itemvalue="JUnit.Punto2" />
+        <item itemvalue="JUnit.Punto1" />
         <item itemvalue="JUnit.Punto2.fechaDeCumpleañosLarga" />
         <item itemvalue="JUnit.Punto2.fechaDeCumpleañosCorta" />
-        <item itemvalue="JUnit.Punto1.envioPorColectivoSur" />
-        <item itemvalue="JUnit.Punto1.envioPorCorreo" />
       </list>
     </recent_temporary>
   </component>
@@ -123,37 +143,20 @@
       <option name="project" value="LOCAL" />
       <updated>1718123467059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="punto2 hecho">
+      <option name="closed" value="true" />
+      <created>1718131602043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718131602043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="punto1 hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="punto1 hecho" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/punto1/Envio.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/punto1/Envio.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/punto1/Envio.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/punto1/Envio.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="punto2 hecho" />
+    <option name="LAST_COMMIT_MESSAGE" value="punto2 hecho" />
   </component>
 </project>
